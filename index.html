@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Profile Component</title>
 </head>
 <body>
     <header></header>
-    <main>
-        <div>
-            <div></div>
-            <div>
-                <h1>Rodrigo Sousa</h1>
-                <p>@codebyrod</p>
+    <main class="m-container">
+        <div class="m-card">
+            <div class="m-card-header">
+                <div class="m-box-profile">
+                    <div class="m-box-img">
+                        <img class="m-img" src="./assets/img/rodrigo perfil.png"/>
+                    </div>
+                    <div class="m-box-txt">
+                        <h1 class="m-title">Rodrigo Sousa</h1>
+                        <p class="m-txt">@codebyrod</p>
+                    </div>
+                </div>
+                <div class="m-box-button">
+                    <button class="m-button">
+                        <img class="m-btn-img" src="./assets/img/btn-edit.png" />
+                        <p class="m-btn-txt">Editar</p>
+                    </button>
+                </div>
             </div>
-            <div>
-                <button>Editar</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>Projetos</h3>
-                <p>48</p>
-            </div>
-            <div>
-                <h3>Estrelas</h3>
-                <p>322</p>
-            </div>
-            <div>
-                <h3>Seguidores</h3>
-                <p>09</p>
+            <div class="m-box-data m-box-projects">
+                <div class="m-card-data">
+                    <h3 class="m-data-title">Projetos</h3>
+                    <p class="m-data-txt">48</p>
+                </div>
+                <div class="m-card-data m-box-stars">
+                    <h3 class="m-data-title" >Estrelas</h3>
+                    <p class="m-data-txt">322</p>
+                </div>
+                <div class="m-card-data m-box-followers">
+                    <h3 class="m-data-title">Seguidores</h3>
+                    <p class="m-data-txt">09</p>
+                </div>
             </div>
         </div>
     </main>
